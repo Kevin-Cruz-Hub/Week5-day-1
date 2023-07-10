@@ -33,26 +33,14 @@ class Pirate {
         this.crewmate = crewmate;
         this.height = height;
         this.clean = clean  
-        this.ability
-    }
-    statement(){
-        this.statement = statement;
-        console.log(`My name is ${this.Captain}, and I will be the Pirate King`)
-    }
-    vow(){
-        this.statement = statement;
-        console.log(`${this.Captain} is the strongest man alive`);
-    }
-    declare(){
-        this.statement = statement;
-        console.log(`${this.captain} is the freest man on the sea`)
+        this.ability = ability
     }
   }
 const luffy = new Pirate('Luffy',5.7,false, 'rubber-man')
 const zoro = new Pirate('Zoro', 5.11,false, 'swords')
 const sanji = new Pirate('Sanji',5.10,true, 'kicks')
 const Whitebeard = new Pirate('Whitebeard',10.5,false,'rumbleman')
-const Marco = new Pirate('Marco',6.4,true,'tranformation')
+const Marco = new Pirate('Marco',6.4,true,'Pheonix tranformation')
 const Ace = new Pirate('Ace',6.8,false,'fire')
 
 const thousandSunny=[]
@@ -66,5 +54,5 @@ for(let pirates of thousandSunny){
     console.log(pirates.crewmate, pirates.height, pirates.clean, pirates.ability)
 }
 for(let pirates of MobyDick){
-    console.log(pirates.crewmate, pirates.height, pirates.clean)
+    console.log(pirates.crewmate, pirates.height, pirates.clean, pirates.ability)
 }

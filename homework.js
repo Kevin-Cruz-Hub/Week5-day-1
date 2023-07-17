@@ -63,8 +63,13 @@ MobyDick.push(Whitebeard, Marco, Ace)
 
 
 for(let pirates of thousandSunny){
-    console.log(`${pirates.crewmate}: ${pirates.height}, ${pirates.clean}, ${pirates.ability}`)
+    for(const [key, value] of Object.entries(pirates)){
+        console.log(`${key}: ${value}`)  
+    }
+    console.log('===============')
+    // console.log(`${pirates.crewmate}: ${pirates.height}, ${pirates.clean}, ${pirates.ability}`)
 }
+
 for(let pirates of MobyDick){
     console.log(`${pirates.crewmate}: ${pirates.height}, ${pirates.clean}, ${pirates.ability}`)
 }
